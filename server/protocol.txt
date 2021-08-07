@@ -1,0 +1,10 @@
+Protocol for communication between server and client
+====================================================
+- data is separated by a pipe
+
+Client -> Server:
+CHECKSUM|PLAYER_ID|PLAYER_NAME|TYPE|[DICE|SLOT|MESSAGE]
+
+Server -> Broadcast:
+
+Server -> Client:
